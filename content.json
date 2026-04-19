@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Rohit Gurunath Thakur — Senior Software Engineer",
+    "description": "Senior Software Engineer specializing in distributed systems, high-throughput backend engineering, and financial-grade transaction infrastructure. Core contributor to India's CBDC and UPI ecosystem.",
+    "url": "https://rohitthakur.dev"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Rohit Gurunath Thakur",
+    "title": "Senior Software Engineer — Distributed Systems",
+    "tagline": "I architect transaction engines sustaining 6,000 TPS with 99.9% availability. Core contributor to India's CBDC and UPI ecosystem, building financial-grade systems that process millions of transactions monthly.",
+    "cta_primary": "View My Work",
+    "cta_secondary": "Get In Touch",
+    "stats": [
+      { "value": "4+", "label": "Years Experience" },
+      { "value": "6K", "label": "TPS Sustained" },
+      { "value": "99.9%", "label": "Availability" }
+    ]
+  },
+  "about": {
+    "heading": "About Me",
+    "paragraphs": [
+      "I'm a Senior Software Engineer with 4 years of deep experience designing and building high-throughput distributed backend systems in the payments domain. My work sits at the core of India's digital currency infrastructure — from CBDC transaction engines to UPI interoperability layers.",
+      "I specialize in architecting systems where failure is not an option: idempotent transaction pipelines, distributed ledger reconciliation, and batch frameworks processing INR 20+ Crore monthly. Every system I build is designed for financial-grade integrity and massive scale.",
+      "My approach combines rigorous systems thinking with battle-tested production debugging. I've led root-cause analysis for critical incidents, optimized database queries under peak load, and designed Kafka-based event architectures that maintain strict ordering at high throughput."
+    ],
+    "highlights": [
+      { "icon": "rocket", "title": "Scale-First Thinking", "text": "Every system I design starts with the question: what happens at 10x load? I build for scale from day one." },
+      { "icon": "layers", "title": "Financial-Grade Integrity", "text": "Idempotency, replay protection, ledger reconciliation — I ensure every rupee is accounted for across distributed services." },
+      { "icon": "target", "title": "Production Battle-Tested", "text": "From root-cause analysis to performance tuning, I thrive in high-stakes production environments where uptime is everything." }
+    ]
+  },
+  "skills": {
+    "heading": "Technical Skills",
+    "categories": [
+      {
+        "name": "Languages",
+        "icon": "code",
+        "items": [
+          { "name": "Java 8/11/17", "level": 95 },
+          { "name": "SQL", "level": 90 },
+          { "name": "Shell Scripting", "level": 75 }
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "icon": "layout",
+        "items": [
+          { "name": "Spring Boot", "level": 95 },
+          { "name": "Spring Batch", "level": 90 },
+          { "name": "REST APIs", "level": 95 },
+          { "name": "Hibernate/JPA", "level": 85 }
+        ]
+      },
+      {
+        "name": "Databases",
+        "icon": "database",
+        "items": [
+          { "name": "PostgreSQL", "level": 95 },
+          { "name": "Oracle", "level": 85 },
+          { "name": "Redis", "level": 85 },
+          { "name": "Aerospike", "level": 80 }
+        ]
+      },
+      {
+        "name": "Messaging & Events",
+        "icon": "server",
+        "items": [
+          { "name": "Apache Kafka", "level": 90 },
+          { "name": "Event-Driven Architecture", "level": 90 },
+          { "name": "Async Workflows", "level": 85 }
+        ]
+      },
+      {
+        "name": "DevOps & Infra",
+        "icon": "cloud",
+        "items": [
+          { "name": "Docker", "level": 90 },
+          { "name": "Kubernetes", "level": 85 },
+          { "name": "OpenShift", "level": 80 },
+          { "name": "CI/CD Pipelines", "level": 85 }
+        ]
+      },
+      {
+        "name": "Architecture",
+        "icon": "tool",
+        "items": [
+          { "name": "Distributed Systems", "level": 95 },
+          { "name": "Microservices", "level": 95 },
+          { "name": "Idempotent Transactions", "level": 90 },
+          { "name": "Reconciliation Systems", "level": 90 }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "items": [
+      {
+        "id": "cbdc-platform",
+        "title": "CBDC Transaction Engine",
+        "subtitle": "Central Bank Digital Currency infrastructure",
+        "description": "Core contributor to India's sovereign digital currency platform — a high-throughput transaction processing engine supporting wallet lifecycle, programmable tokens, and distributed ledger reconciliation.",
+        "problem": "India needed a scalable, secure digital currency infrastructure that could handle millions of transactions with strict financial integrity, programmable token controls, and real-time settlement.",
+        "solution": "Designed and implemented wallet lifecycle APIs (issuance, transfer, redemption) in a distributed microservices architecture. Built idempotency using unique request identifiers and replay protection. Optimized PostgreSQL indexing strategies for peak-load performance.",
+        "impact": "Achieved 6,000 TPS sustained throughput with 99.9% system availability. Ensured ledger consistency across all distributed services through automated reconciliation mechanisms.",
+        "metric": "6,000 TPS • 99.9% uptime",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "Kafka", "Kubernetes"],
+        "image": "analytics",
+        "color": "#6366f1"
+      },
+      {
+        "id": "batch-engine",
+        "title": "Batch Disbursement Engine",
+        "subtitle": "Large-scale wallet crediting framework",
+        "description": "Built a scalable batch processing framework that credits 100,000+ wallets within 30 minutes, processing INR 20+ Crore in monthly token disbursements with full transactional safety.",
+        "problem": "Mass crediting of digital currency to hundreds of thousands of wallets required a system that could guarantee zero data loss, handle failures gracefully, and reconcile every transaction — all within tight SLA windows.",
+        "solution": "Developed a Spring Batch framework with retry logic, failure recovery workflows, and reconciliation checkpoints. Designed rule-based programmable token controls for targeted distribution use cases.",
+        "impact": "Credits 100K+ wallets in under 30 minutes. Processes INR 20+ Crore monthly with transactional safety guarantees. Zero reconciliation discrepancies since launch.",
+        "metric": "₹20Cr+/month processed",
+        "tags": ["Java", "Spring Batch", "PostgreSQL", "Redis", "Docker"],
+        "image": "infrastructure",
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "upi-integration",
+        "title": "CBDC–UPI Interoperability",
+        "subtitle": "Bridging digital currency with 50M+ QR points",
+        "description": "Built the interoperability layer connecting CBDC to India's UPI ecosystem, enabling digital rupee transactions at over 50 million QR acceptance points nationwide.",
+        "problem": "For CBDC adoption, digital currency needed to be spendable at existing UPI merchant points. This required seamless integration with India's massive payment acceptance network without disrupting existing flows.",
+        "solution": "Designed and built the CBDC–UPI bridge layer. Developed EMI (BNPL) conversion and credit authorization flows for RuPay credit-on-UPI. Implemented fund block and release APIs for settlement workflows.",
+        "impact": "Enabled CBDC transactions at 50M+ UPI QR acceptance points. Successfully integrated RuPay credit-on-UPI flows for EMI and BNPL use cases.",
+        "metric": "50M+ QR points integrated",
+        "tags": ["Java", "Spring Boot", "REST APIs", "Oracle", "Kafka"],
+        "image": "gateway",
+        "color": "#ec4899"
+      },
+      {
+        "id": "kafka-workflows",
+        "title": "Event-Driven Transaction Pipeline",
+        "subtitle": "Kafka-based async processing architecture",
+        "description": "Designed Kafka-based asynchronous workflows with partition-aware processing to maintain strict ordering and high throughput for financial transaction events.",
+        "problem": "Synchronous transaction processing created bottlenecks under peak load. The system needed to decouple producers and consumers while guaranteeing message ordering for financial events — where out-of-order processing means incorrect balances.",
+        "solution": "Architected partition-aware Kafka consumers with exactly-once semantics. Built dead-letter queue handling, monitoring dashboards, and automated alerting for consumer lag.",
+        "impact": "Eliminated synchronous bottlenecks, enabling the system to sustain 6,000 TPS. Maintained strict ordering guarantees with zero message loss in production.",
+        "metric": "Zero message loss",
+        "tags": ["Apache Kafka", "Java", "Spring Boot", "Redis", "Aerospike"],
+        "image": "recruitment",
+        "color": "#f59e0b"
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experience",
+    "items": [
+      {
+        "role": "Software Development Engineer",
+        "company": "Mindgate Solutions Pvt Ltd",
+        "period": "May 2022 — Present",
+        "type": "Full-time",
+        "achievements": [
+          "Architected transaction processing engine sustaining 6,000 TPS with 99.9% system availability for India's CBDC platform",
+          "Designed and implemented wallet lifecycle APIs (issuance, transfer, redemption) in a distributed microservices architecture",
+          "Built scalable batch framework crediting 100,000+ wallets within 30 minutes, processing INR 20+ Crore monthly",
+          "Implemented idempotency using unique request identifiers and replay protection to prevent duplicate monetary operations",
+          "Designed Kafka-based async workflows with partition-aware processing maintaining strict ordering at high throughput",
+          "Built CBDC–UPI interoperability layer integrating with 50M+ QR acceptance points across India",
+          "Developed EMI (BNPL) conversion and credit authorization flows for RuPay credit-on-UPI",
+          "Optimized PostgreSQL queries and indexing strategies to reduce transaction latency under peak load",
+          "Led root-cause analysis and performance tuning for production incidents in high-stakes environments"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "degree": "Bachelor of Engineering — Computer Engineering",
+        "institution": "Shivajirao S. Jondhale College of Engineering",
+        "year": "2021",
+        "coursework": ["Distributed Systems", "Database Systems", "Operating Systems"]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "subheading": "Interested in discussing distributed systems, fintech infrastructure, or a new opportunity? I'd love to connect.",
+    "response_time": "I typically respond within 24 hours",
+    "email": "rohit.gurunath.thakur@gmail.com",
+    "phone": "+91-9867315334",
+    "location": "Mumbai, India",
+    "social": [
+      { "platform": "GitHub", "url": "https://github.com/trohit3459", "icon": "github" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/rohit-gurunath-thakur", "icon": "linkedin" }
+    ]
+  },
+  "navigation": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Contact", "href": "#contact" }
+  ]
+}

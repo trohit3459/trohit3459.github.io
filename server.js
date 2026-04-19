@@ -45,26 +45,12 @@ const server = http.createServer((req, res) => {
   }
 
   // Serve static files
-  const fullPath = path.join(__dirname, 'public', filePath);
+  const fullPath = path.join(__dirname, filePath);
   const ext = path.extname(fullPath).toLowerCase();
   const contentType = MIME_TYPES[ext] || 'application/octet-stream';
 
   fs.readFile(fullPath, (err, content) => {
     if (err) {
-      // Try data directory for JSON
-      if (ext === '.json') {
-        const dataPath = path.join(__dirname, 'data', path.basename(filePath));
-        fs.readFile(dataPath, (err2, dataContent) => {
-          if (err2) {
-            res.writeHead(404, { 'Content-Type': 'text/plain' });
-            res.end('Not Found');
-          } else {
-            res.writeHead(200, { 'Content-Type': contentType, 'Cache-Control': 'no-cache' });
-            res.end(dataContent);
-          }
-        });
-        return;
-      }
       res.writeHead(404, { 'Content-Type': 'text/plain' });
       res.end('Not Found');
     } else {
@@ -80,5 +66,5 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`\n  ✨ Portfolio is live!\n`);
   console.log(`  🌐 Local:   http://localhost:${PORT}`);
-  console.log(`  📁 Serving: ${path.join(__dirname, 'public')}\n`);
+  console.log(`  📁 Serving: ${__dirname}\n`);
 });
