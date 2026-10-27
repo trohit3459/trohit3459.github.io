@@ -1,18 +1,21 @@
 {
   "meta": {
-    "title": "Rohit Gurunath Thakur — Senior Software Engineer",
-    "description": "Senior Software Engineer specializing in distributed systems, high-throughput backend engineering, and financial-grade transaction infrastructure. Core contributor to India's CBDC and UPI ecosystem.",
-    "url": "https://rohitthakur.dev"
+    "title": "Rohit Gurunath Thakur — Senior Backend Engineer | Payments & Fintech",
+    "description": "Senior Backend Engineer and team lead building high-scale, regulated payment systems in Java and Spring Boot. Core contributor to India's CBDC (Digital Rupee), UPI and Demat 2.0 real-time securities settlement. Relocating to Dubai, UAE.",
+    "url": "https://trohit3459.github.io"
   },
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Rohit Gurunath Thakur",
-    "title": "Senior Software Engineer — Distributed Systems",
-    "tagline": "I architect transaction engines sustaining 6,000 TPS with 99.9% availability. Core contributor to India's CBDC and UPI ecosystem, building financial-grade systems that process millions of transactions monthly.",
+    "title": "Senior Backend Engineer — Payments, CBDC & Real-Time Settlement",
+    "tagline": "I lead a team of 8 engineers building India's national payment infrastructure: a real-time securities settlement platform settling ₹700+ Crore (INR 7B+) daily, and a CBDC transaction engine sustaining 6,000 TPS at 99.9% availability. Now relocating to Dubai, UAE.",
     "cta_primary": "View My Work",
     "cta_secondary": "Get In Touch",
+    "cta_cv": "Download CV",
+    "cv_url": "Rohit_Thakur_Senior_Backend_Engineer_CV.pdf",
     "stats": [
       { "value": "4+", "label": "Years Experience" },
+      { "value": "₹700Cr+", "label": "Settled Daily" },
       { "value": "6K", "label": "TPS Sustained" },
       { "value": "99.9%", "label": "Availability" }
     ]
@@ -20,14 +23,14 @@
   "about": {
     "heading": "About Me",
     "paragraphs": [
-      "I'm a Senior Software Engineer with 4 years of deep experience designing and building high-throughput distributed backend systems in the payments domain. My work sits at the core of India's digital currency infrastructure — from CBDC transaction engines to UPI interoperability layers.",
-      "I specialize in architecting systems where failure is not an option: idempotent transaction pipelines, distributed ledger reconciliation, and batch frameworks processing INR 20+ Crore monthly. Every system I build is designed for financial-grade integrity and massive scale.",
-      "My approach combines rigorous systems thinking with battle-tested production debugging. I've led root-cause analysis for critical incidents, optimized database queries under peak load, and designed Kafka-based event architectures that maintain strict ordering at high throughput."
+      "I'm a Senior Backend Engineer at Mindgate Solutions with 4+ years of experience building high-scale, regulated payment systems in Java and Spring Boot. My work sits at the core of India's digital payments infrastructure — the national Central Bank Digital Currency (CBDC / Digital Rupee) platform, UPI instant payments, and Demat 2.0 real-time securities settlement — delivered for HDFC Bank and Bank of Baroda under RBI, NPCI and SEBI frameworks.",
+      "I lead a team of 8 engineers and own systems where failure is not an option: atomic Delivery-versus-Payment settlement moving ₹700+ Crore every day, a tokenised transaction engine at 6,000 TPS, and a disbursement engine that credits 100,000+ wallets in 30 minutes with zero duplicate credits.",
+      "Our products have launched at Global Fintech Fest four years running (2023–2026), and three Digital Rupee innovations I worked on were launched on stage by the Reserve Bank of India. I'm now relocating to Dubai to bring this experience to banks, digital banks and fintechs in the UAE."
     ],
     "highlights": [
-      { "icon": "rocket", "title": "Scale-First Thinking", "text": "Every system I design starts with the question: what happens at 10x load? I build for scale from day one." },
-      { "icon": "layers", "title": "Financial-Grade Integrity", "text": "Idempotency, replay protection, ledger reconciliation — I ensure every rupee is accounted for across distributed services." },
-      { "icon": "target", "title": "Production Battle-Tested", "text": "From root-cause analysis to performance tuning, I thrive in high-stakes production environments where uptime is everything." }
+      { "icon": "rocket", "title": "Real-Time Settlement at Scale", "text": "Demat 2.0 settles ₹700+ Crore (INR 7B+) daily with same-day finality through atomic DvP between tokenised securities and CBDC." },
+      { "icon": "layers", "title": "Financial-Grade Integrity", "text": "Idempotency, replay protection, double-spend protection and ledger reconciliation — every rupee accounted for across distributed services." },
+      { "icon": "lead", "title": "Team Lead, 8 Engineers", "text": "Leading design, delivery and production support; promoted twice in 4 years and shipped every GFF launch on time." }
     ]
   },
   "skills": {
@@ -37,7 +40,7 @@
         "name": "Languages",
         "icon": "code",
         "items": [
-          { "name": "Java 8/11/17", "level": 95 },
+          { "name": "Java 8/11/17/21", "level": 95 },
           { "name": "SQL", "level": 90 },
           { "name": "Shell Scripting", "level": 75 }
         ]
@@ -90,6 +93,21 @@
           { "name": "Idempotent Transactions", "level": 90 },
           { "name": "Reconciliation Systems", "level": 90 }
         ]
+      },
+      {
+        "name": "Payments & Fintech",
+        "icon": "card",
+        "tags": ["Instant / Real-Time Payments", "UPI", "UPI Mandate & AutoPay", "Digital Wallets", "RuPay Card Network", "Payment Gateway Integration", "BNPL / EMI", "Cross-Border Remittance (LRS)", "Merchant & POS Payments"]
+      },
+      {
+        "name": "Digital Currency & Capital Markets",
+        "icon": "coin",
+        "tags": ["CBDC / Digital Rupee", "Programmable Money", "Tokenisation", "Tokenised Securities", "DvP Settlement", "Offline Payments", "Secondary Market Settlement", "DLT"]
+      },
+      {
+        "name": "Compliance & Security",
+        "icon": "shield",
+        "tags": ["KYC/AML", "RBI", "NPCI", "SEBI", "FEMA", "Payment Security & Authentication", "Fraud Detection", "Audit Trails"]
       }
     ]
   },
@@ -97,27 +115,40 @@
     "heading": "Featured Projects",
     "items": [
       {
+        "id": "demat-2",
+        "title": "Demat 2.0 Securities Settlement",
+        "subtitle": "Atomic DvP between tokenised securities and CBDC · Jul 2026 – Present",
+        "description": "Next-generation settlement platform that exchanges tokenised securities and central bank digital currency simultaneously, settling ₹700+ Crore every day in real time. Unveiled by the RBI Governor and SEBI Chairman at Global Fintech Fest 2026.",
+        "problem": "Traditional securities settlement is pay-first, receive-later, which leaves buyers and sellers exposed to counterparty and settlement risk between the two legs of a trade.",
+        "solution": "Designed wallet architecture, API/interface specifications and settlement flows for atomic Delivery-versus-Payment: the securities leg and the CBDC payment leg either both complete or neither does.",
+        "impact": "Settles ₹700+ Crore (INR 7B+) daily in real time with same-day transfer and settlement finality, eliminating counterparty and settlement risk. Unveiled at GFF 2026 by RBI Governor Shri Sanjay Malhotra and SEBI Chairman Shri Tuhin Kanta Pandey.",
+        "metric": "₹700Cr+ settled daily",
+        "tags": ["Java", "Spring Boot", "CBDC", "DvP", "Tokenisation"],
+        "image": "settlement",
+        "color": "#10b981"
+      },
+      {
         "id": "cbdc-platform",
         "title": "CBDC Transaction Engine",
-        "subtitle": "Central Bank Digital Currency infrastructure",
-        "description": "Core contributor to India's sovereign digital currency platform — a high-throughput transaction processing engine supporting wallet lifecycle, programmable tokens, and distributed ledger reconciliation.",
+        "subtitle": "India's national Digital Rupee platform · Sep 2022 – Jun 2023",
+        "description": "Core contributor to India's sovereign digital currency platform — a tokenised, high-throughput transaction engine covering the full wallet lifecycle, built under the RBI framework and integrated with the NPCI-governed UPI ecosystem.",
         "problem": "India needed a scalable, secure digital currency infrastructure that could handle millions of transactions with strict financial integrity, programmable token controls, and real-time settlement.",
-        "solution": "Designed and implemented wallet lifecycle APIs (issuance, transfer, redemption) in a distributed microservices architecture. Built idempotency using unique request identifiers and replay protection. Optimized PostgreSQL indexing strategies for peak-load performance.",
-        "impact": "Achieved 6,000 TPS sustained throughput with 99.9% system availability. Ensured ledger consistency across all distributed services through automated reconciliation mechanisms.",
+        "solution": "Built wallet lifecycle APIs (onboarding, issuance, transfer, redemption, burn) as distributed Java and Spring Boot microservices. Added idempotency with replay protection, Redis/Aerospike caching for low-latency validation, and reconciliation, audit trail and regulatory logging services.",
+        "impact": "Sustains ~6,000 TPS with horizontal scalability and 99.9%+ uptime across pilot and production, with ledger consistency maintained across all distributed services.",
         "metric": "6,000 TPS • 99.9% uptime",
-        "tags": ["Java", "Spring Boot", "PostgreSQL", "Kafka", "Kubernetes"],
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "Kafka", "Redis", "Aerospike"],
         "image": "analytics",
         "color": "#6366f1"
       },
       {
         "id": "batch-engine",
-        "title": "Batch Disbursement Engine",
-        "subtitle": "Large-scale wallet crediting framework",
-        "description": "Built a scalable batch processing framework that credits 100,000+ wallets within 30 minutes, processing INR 20+ Crore in monthly token disbursements with full transactional safety.",
-        "problem": "Mass crediting of digital currency to hundreds of thousands of wallets required a system that could guarantee zero data loss, handle failures gracefully, and reconcile every transaction — all within tight SLA windows.",
-        "solution": "Developed a Spring Batch framework with retry logic, failure recovery workflows, and reconciliation checkpoints. Designed rule-based programmable token controls for targeted distribution use cases.",
-        "impact": "Credits 100K+ wallets in under 30 minutes. Processes INR 20+ Crore monthly with transactional safety guarantees. Zero reconciliation discrepancies since launch.",
-        "metric": "₹20Cr+/month processed",
+        "title": "Government & Enterprise Disbursement Engine",
+        "subtitle": "Bulk salary and welfare-scheme distribution · Jun 2025 – Aug 2025",
+        "description": "High-throughput batch engine for bulk salary credits and programmable CBDC distribution into beneficiary wallets — crediting 100,000+ wallets in 30 minutes and moving ₹20 Crore every month.",
+        "problem": "Mass crediting of digital currency to hundreds of thousands of wallets required zero data loss, graceful failure handling and reconciliation of every transaction, all within tight SLA windows — plus spending rules for welfare schemes.",
+        "solution": "Built a Spring Batch framework with idempotent processing, retry orchestration, failure recovery and automated reconciliation. Enabled programmable CBDC for schemes such as Sukanya Samriddhi Yojana, fisheries subsidies and Pokhra rural development, with spending restricted by merchant category or geography.",
+        "impact": "Credits 100,000+ wallets in under 30 minutes. Processes ₹20 Crore (INR 200M+) monthly and ₹5 Crore+ per scheme cycle with zero duplicate credits.",
+        "metric": "100K wallets in 30 min",
         "tags": ["Java", "Spring Batch", "PostgreSQL", "Redis", "Docker"],
         "image": "infrastructure",
         "color": "#8b5cf6"
@@ -125,28 +156,67 @@
       {
         "id": "upi-integration",
         "title": "CBDC–UPI Interoperability",
-        "subtitle": "Bridging digital currency with 50M+ QR points",
-        "description": "Built the interoperability layer connecting CBDC to India's UPI ecosystem, enabling digital rupee transactions at over 50 million QR acceptance points nationwide.",
-        "problem": "For CBDC adoption, digital currency needed to be spendable at existing UPI merchant points. This required seamless integration with India's massive payment acceptance network without disrupting existing flows.",
-        "solution": "Designed and built the CBDC–UPI bridge layer. Developed EMI (BNPL) conversion and credit authorization flows for RuPay credit-on-UPI. Implemented fund block and release APIs for settlement workflows.",
-        "impact": "Enabled CBDC transactions at 50M+ UPI QR acceptance points. Successfully integrated RuPay credit-on-UPI flows for EMI and BNPL use cases.",
-        "metric": "50M+ QR points integrated",
-        "tags": ["Java", "Spring Boot", "REST APIs", "Oracle", "Kafka"],
+        "subtitle": "Digital Rupee at 50M+ UPI QR points · Jul 2023 – Oct 2023",
+        "description": "Interoperability middleware that lets CBDC wallets pay at more than 50 million UPI QR acceptance points across India, with no changes needed on the merchant side. Launched at GFF 2023.",
+        "problem": "For CBDC adoption, digital currency had to be spendable at existing UPI merchant points without asking millions of merchants to change anything.",
+        "solution": "Designed secure CBDC-to-UPI transaction routing APIs, a tokenised settlement and validation framework, and optimised VPA resolution and payment routing logic.",
+        "impact": "Enabled CBDC payments at 50M+ UPI QR acceptance points with a 99.8% transaction success rate during pilot.",
+        "metric": "50M+ QR points • 99.8% success",
+        "tags": ["Java", "Spring Boot", "REST APIs", "Kafka", "UPI"],
         "image": "gateway",
         "color": "#ec4899"
       },
       {
-        "id": "kafka-workflows",
-        "title": "Event-Driven Transaction Pipeline",
-        "subtitle": "Kafka-based async processing architecture",
-        "description": "Designed Kafka-based asynchronous workflows with partition-aware processing to maintain strict ordering and high throughput for financial transaction events.",
-        "problem": "Synchronous transaction processing created bottlenecks under peak load. The system needed to decouple producers and consumers while guaranteeing message ordering for financial events — where out-of-order processing means incorrect balances.",
-        "solution": "Architected partition-aware Kafka consumers with exactly-once semantics. Built dead-letter queue handling, monitoring dashboards, and automated alerting for consumer lag.",
-        "impact": "Eliminated synchronous bottlenecks, enabling the system to sustain 6,000 TPS. Maintained strict ordering guarantees with zero message loss in production.",
-        "metric": "Zero message loss",
-        "tags": ["Apache Kafka", "Java", "Spring Boot", "Redis", "Aerospike"],
-        "image": "recruitment",
+        "id": "gpay-tpap",
+        "title": "CBDC on Google Pay (TPAP)",
+        "subtitle": "Digital Rupee in a mainstream consumer app · Jun 2025 – Jan 2026",
+        "description": "Third-party application provider (TPAP) integration that brought CBDC to Google Pay users, extending the Digital Rupee to large-scale consumer apps.",
+        "problem": "CBDC usage was limited to bank apps; reaching mainstream users meant exposing it securely through third-party consumer apps under strict RBI and NPCI rules.",
+        "solution": "Delivered a secure API gateway for TPAP onboarding and transactions, real-time authorisation and settlement, token validation and wallet balance verification, with production monitoring and failover on Kubernetes.",
+        "impact": "Opened the Digital Rupee to Google Pay's user base and significantly expanded the CBDC ecosystem, in full RBI/NPCI compliance.",
+        "metric": "CBDC live on Google Pay",
+        "tags": ["Java", "Spring Boot", "Kubernetes", "KYC/AML", "API Gateway"],
+        "image": "mobile",
+        "color": "#0ea5e9"
+      },
+      {
+        "id": "cbdc-offline",
+        "title": "CBDC Offline Payments",
+        "subtitle": "P2P & P2M transfers without network · Nov 2024 – Feb 2025",
+        "description": "Offline Digital Rupee transfers between people and merchants without network connectivity, integrated with POS systems including Pine Labs. Launched on stage by RBI and at GFF 2024.",
+        "problem": "Digital payments fail in low-connectivity areas and during disasters — exactly where financial inclusion matters most.",
+        "solution": "Designed secure offline token storage and validation, double-spend protection, and deferred settlement and reconciliation services, with merchant POS integration.",
+        "impact": "Made CBDC usable in low-connectivity environments, strengthening payment resilience and financial inclusion.",
+        "metric": "Works without network",
+        "tags": ["Java", "PostgreSQL", "Kafka", "Aerospike", "POS"],
+        "image": "offline",
         "color": "#f59e0b"
+      },
+      {
+        "id": "programmable-tokens",
+        "title": "Programmable Tokens & Discount Vouchers",
+        "subtitle": "Purpose-bound digital money · Mar 2025 – Nov 2025",
+        "description": "Rule-based CBDC that can only be spent where it is meant to be, plus a voucher ecosystem driving user adoption. Both launched on stage by RBI and at GFF 2025.",
+        "problem": "Governments and enterprises needed money that could be restricted to a purpose, merchant category or region, and incentives that drive CBDC adoption without fraud.",
+        "solution": "Built a rule-engine token validation layer with merchant and location spending enforcement and a full token lifecycle (issue → validate → redeem → expire). Built voucher issuance and redemption microservices with fraud detection, integrated with merchants via Xaults.",
+        "impact": "Enabled targeted government and enterprise disbursements, and a voucher platform supporting millions of monthly transactions with measurable transaction uplift.",
+        "metric": "Millions of txns / month",
+        "tags": ["Java", "Spring Boot", "Rule Engine", "OpenShift", "Kafka"],
+        "image": "token",
+        "color": "#14b8a6"
+      },
+      {
+        "id": "rupay-upi",
+        "title": "RuPay Credit Card on UPI & UPI Mandate",
+        "subtitle": "Credit and capital-market flows on UPI · Nov 2023 – Oct 2024",
+        "description": "Led backend for credit-on-UPI in the RuPay ecosystem, then built UPI Mandate fund block/release infrastructure for secondary-market trades aligned with SEBI frameworks.",
+        "problem": "UPI was debit-only, and investors needed a safe way to block funds for stock trades without moving money until settlement.",
+        "solution": "Built real-time EMI conversion (BNPL), UPI PIN credit authorisation and bill management for RuPay credit. For UPI Mandate, built low-latency block/release, synchronous status APIs, async notifications and reconciliation.",
+        "impact": "Expanded UPI from debit to full credit functionality, and reduced settlement friction for secondary-market investors under RBI, NPCI and SEBI rules.",
+        "metric": "Credit + mandates on UPI",
+        "tags": ["Java", "Spring Boot", "Oracle", "JUnit", "UPI"],
+        "image": "recruitment",
+        "color": "#ef4444"
       }
     ]
   },
@@ -154,22 +224,52 @@
     "heading": "Experience",
     "items": [
       {
-        "role": "Software Development Engineer",
-        "company": "Mindgate Solutions Pvt Ltd",
-        "period": "May 2022 — Present",
+        "role": "Senior Software Engineer",
+        "company": "Mindgate Solutions Pvt Ltd · Mumbai, India",
+        "period": "Aug 2026 — Present",
         "type": "Full-time",
         "achievements": [
-          "Architected transaction processing engine sustaining 6,000 TPS with 99.9% system availability for India's CBDC platform",
-          "Designed and implemented wallet lifecycle APIs (issuance, transfer, redemption) in a distributed microservices architecture",
-          "Built scalable batch framework crediting 100,000+ wallets within 30 minutes, processing INR 20+ Crore monthly",
-          "Implemented idempotency using unique request identifiers and replay protection to prevent duplicate monetary operations",
-          "Designed Kafka-based async workflows with partition-aware processing maintaining strict ordering at high throughput",
-          "Built CBDC–UPI interoperability layer integrating with 50M+ QR acceptance points across India",
-          "Developed EMI (BNPL) conversion and credit authorization flows for RuPay credit-on-UPI",
-          "Optimized PostgreSQL queries and indexing strategies to reduce transaction latency under peak load",
-          "Led root-cause analysis and performance tuning for production incidents in high-stakes environments"
+          "Lead and mentor a team of 8 engineers across design, delivery and production support of bank-facing payment and settlement platforms for HDFC Bank and Bank of Baroda",
+          "Lead backend design of Demat 2.0, atomic DvP between tokenised securities and CBDC, settling ₹700+ Crore (INR 7B+) daily in real time",
+          "Own wallet architecture, API specifications and settlement-flow design, replacing pay-first, receive-later models with simultaneous, guaranteed exchange of assets and payment"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Mindgate Solutions Pvt Ltd · Mumbai, India",
+        "period": "Dec 2022 — Aug 2026",
+        "type": "Full-time",
+        "achievements": [
+          "Led a team of 8 engineers on national CBDC programs, delivering Global Fintech Fest launches in 2023, 2024 and 2025, all shipped on time",
+          "Architected a distributed, tokenised transaction engine for India's CBDC platform, sustaining 6,000 TPS with 99.9%+ uptime",
+          "Built wallet lifecycle APIs (onboarding, issuance, transfer, redemption, burn) as Java and Spring Boot microservices",
+          "Implemented idempotent transaction processing with replay protection, ensuring zero duplicate credits under retries",
+          "Built a disbursement engine crediting 100,000+ wallets in 30 minutes and moving ₹20 Crore monthly",
+          "Engineered the CBDC–UPI interoperability layer (50M+ QR points, 99.8% pilot success) and the CBDC integration with Google Pay",
+          "Led backend for RuPay Credit Card on UPI (EMI/BNPL, UPI PIN credit authorisation) and UPI Mandate secondary-market settlement",
+          "Designed Kafka async workflows and Redis/Aerospike caching; led root-cause analysis for production incidents under high load"
+        ]
+      },
+      {
+        "role": "Junior Software Engineer",
+        "company": "Mindgate Solutions Pvt Ltd · Mumbai, India",
+        "period": "May 2022 — Dec 2022",
+        "type": "Full-time",
+        "achievements": [
+          "Developed outward remittance modules under RBI's Liberalised Remittance Scheme (LRS), with FEMA compliance and Oracle-backed settlement and reconciliation",
+          "Built audit-ready logging and regulatory reporting for cross-border payments, and contributed to the initial CBDC platform build"
         ]
       }
+    ]
+  },
+  "achievements": {
+    "heading": "Achievements",
+    "subheading": "Recognition for shipping national-scale payment products.",
+    "items": [
+      { "icon": "trophy", "title": "WOW Machine Award", "text": "Backend Engineering award at Mindgate Solutions for work on large-scale payment and digital currency systems." },
+      { "icon": "stage", "title": "Global Fintech Fest, 4 Years Running", "text": "Launches for HDFC Bank and Bank of Baroda: CBDC–UPI Interoperability (2023), CBDC Offline Payments (2024), Programmable Tokens and Discount Voucher (2025), Demat 2.0 (2026)." },
+      { "icon": "bank", "title": "Launched on Stage by RBI", "text": "Three Digital Rupee innovations I worked on — Discount Voucher, Programmable Tokens and Offline Payments — were launched by the Reserve Bank of India." },
+      { "icon": "up", "title": "Promoted Twice in 4 Years", "text": "Junior Software Engineer → Software Engineer → Senior Software Engineer, now leading a team of 8 engineers." }
     ]
   },
   "education": {
@@ -178,21 +278,30 @@
       {
         "degree": "Bachelor of Engineering — Computer Engineering",
         "institution": "Shivajirao S. Jondhale College of Engineering",
-        "year": "2021",
-        "coursework": ["Distributed Systems", "Database Systems", "Operating Systems"]
+        "year": "2017 – 2021 · Grade: A",
+        "coursework": ["Distributed Systems", "Database Systems", "Operating Systems", "Data Structures"]
+      },
+      {
+        "degree": "Diploma — Computer Technology",
+        "institution": "Shivajirao S. Jondhale College of Engineering",
+        "year": "2013 – 2017 · Grade: 70%",
+        "coursework": []
       }
     ]
   },
   "contact": {
     "heading": "Get In Touch",
-    "subheading": "Interested in discussing distributed systems, fintech infrastructure, or a new opportunity? I'd love to connect.",
+    "subheading": "Hiring for a Senior Backend, Payments Engineer or Tech Lead role in Dubai or the UAE? I'd love to talk.",
     "response_time": "I typically respond within 24 hours",
     "email": "rohit.gurunath.thakur@gmail.com",
-    "phone": "+91-9867315334",
-    "location": "Mumbai, India",
+    "phone": "+91-8689954746",
+    "whatsapp": "918689954746",
+    "location": "Mumbai, India · Relocating to Dubai, UAE",
+    "availability": "Notice period: 60 days · Requires UAE employment visa",
+    "languages": "English, Hindi, Marathi",
     "social": [
       { "platform": "GitHub", "url": "https://github.com/trohit3459", "icon": "github" },
-      { "platform": "LinkedIn", "url": "https://linkedin.com/in/rohit-gurunath-thakur", "icon": "linkedin" }
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/rohit-gurunath-thakur/", "icon": "linkedin" }
     ]
   },
   "navigation": [
@@ -200,6 +309,7 @@
     { "label": "Skills", "href": "#skills" },
     { "label": "Projects", "href": "#projects" },
     { "label": "Experience", "href": "#experience" },
+    { "label": "Achievements", "href": "#achievements" },
     { "label": "Contact", "href": "#contact" }
   ]
 }
